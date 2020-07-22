@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4122F5EF24C2F3A700616440 /* 公转自转.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4122F5EE24C2F3A700616440 /* 公转自转.cpp */; };
+		4122F5F124C2F8EA00616440 /* 公转自转demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4122F5F024C2F8EA00616440 /* 公转自转demo.cpp */; };
+		4180471F24C2D22600278718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4180471E24C2D22600278718 /* Assets.xcassets */; };
+		4180472D24C2D28300278718 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4180472C24C2D28300278718 /* main.cpp */; };
+		41BC221B24C5600C005C57E6 /* 纹理三角形.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41BC221A24C5600C005C57E6 /* 纹理三角形.cpp */; };
+		41BC222024C564DA005C57E6 /* brick.tga in Resources */ = {isa = PBXBuildFile; fileRef = 41BC221E24C564CD005C57E6 /* brick.tga */; };
+		41C194E024C732FC00A94B6D /* test.tga in Resources */ = {isa = PBXBuildFile; fileRef = 41C194DE24C732FC00A94B6D /* test.tga */; };
+		41C194E124C732FC00A94B6D /* douzhi.tga in Resources */ = {isa = PBXBuildFile; fileRef = 41C194DF24C732FC00A94B6D /* douzhi.tga */; };
+		41C194E624C735A500A94B6D /* Marble.tga in Resources */ = {isa = PBXBuildFile; fileRef = 41C194E324C735A500A94B6D /* Marble.tga */; };
+		41C194E724C735A500A94B6D /* Marslike.tga in Resources */ = {isa = PBXBuildFile; fileRef = 41C194E424C735A500A94B6D /* Marslike.tga */; };
+		41C194E824C735A500A94B6D /* MoonLike.tga in Resources */ = {isa = PBXBuildFile; fileRef = 41C194E524C735A500A94B6D /* MoonLike.tga */; };
+		9F013BC0482B292C2EFB2C36 /* libPods-OpenGLDemoList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BB14A823F2063A54C34CFA /* libPods-OpenGLDemoList.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		302A485B4C01810747FD4228 /* Pods-OpenGLDemoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLDemoList.debug.xcconfig"; path = "Target Support Files/Pods-OpenGLDemoList/Pods-OpenGLDemoList.debug.xcconfig"; sourceTree = "<group>"; };
+		4122F5EE24C2F3A700616440 /* 公转自转.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "公转自转.cpp"; sourceTree = "<group>"; };
+		4122F5F024C2F8EA00616440 /* 公转自转demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "公转自转demo.cpp"; sourceTree = "<group>"; };
+		4180471524C2D22500278718 /* OpenGLDemoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLDemoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4180471E24C2D22600278718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4180472324C2D22600278718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4180472624C2D22600278718 /* OpenGLDemoList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGLDemoList.entitlements; sourceTree = "<group>"; };
+		4180472C24C2D28300278718 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		41BC221A24C5600C005C57E6 /* 纹理三角形.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "纹理三角形.cpp"; sourceTree = "<group>"; };
+		41BC221C24C564CD005C57E6 /* ceiling.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = ceiling.tga; sourceTree = "<group>"; };
+		41BC221D24C564CD005C57E6 /* floor.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = floor.tga; sourceTree = "<group>"; };
+		41BC221E24C564CD005C57E6 /* brick.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = brick.tga; sourceTree = "<group>"; };
+		41BC221F24C564CD005C57E6 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+		41C194DE24C732FC00A94B6D /* test.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.tga; sourceTree = "<group>"; };
+		41C194DF24C732FC00A94B6D /* douzhi.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = douzhi.tga; sourceTree = "<group>"; };
+		41C194E324C735A500A94B6D /* Marble.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marble.tga; sourceTree = "<group>"; };
+		41C194E424C735A500A94B6D /* Marslike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marslike.tga; sourceTree = "<group>"; };
+		41C194E524C735A500A94B6D /* MoonLike.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = MoonLike.tga; sourceTree = "<group>"; };
+		B560B94C3433F27D259EAC7F /* Pods-OpenGLDemoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGLDemoList.release.xcconfig"; path = "Target Support Files/Pods-OpenGLDemoList/Pods-OpenGLDemoList.release.xcconfig"; sourceTree = "<group>"; };
+		E9BB14A823F2063A54C34CFA /* libPods-OpenGLDemoList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenGLDemoList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4180471224C2D22500278718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F013BC0482B292C2EFB2C36 /* libPods-OpenGLDemoList.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4180470C24C2D22500278718 = {
+			isa = PBXGroup;
+			children = (
+				4180471724C2D22500278718 /* OpenGLDemoList */,
+				4180471624C2D22500278718 /* Products */,
+				6D26D4ABC9FD5581699F6BD0 /* Pods */,
+				55D6DDEE4A05AA3C224A5507 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4180471624C2D22500278718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4180471524C2D22500278718 /* OpenGLDemoList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4180471724C2D22500278718 /* OpenGLDemoList */ = {
+			isa = PBXGroup;
+			children = (
+				41C194E224C7330500A94B6D /* resource */,
+				4180471E24C2D22600278718 /* Assets.xcassets */,
+				4180472324C2D22600278718 /* Info.plist */,
+				4180472624C2D22600278718 /* OpenGLDemoList.entitlements */,
+				4180472C24C2D28300278718 /* main.cpp */,
+				4122F5EE24C2F3A700616440 /* 公转自转.cpp */,
+				4122F5F024C2F8EA00616440 /* 公转自转demo.cpp */,
+				41BC221A24C5600C005C57E6 /* 纹理三角形.cpp */,
+			);
+			path = OpenGLDemoList;
+			sourceTree = "<group>";
+		};
+		41C194E224C7330500A94B6D /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				41C194E324C735A500A94B6D /* Marble.tga */,
+				41C194E424C735A500A94B6D /* Marslike.tga */,
+				41C194E524C735A500A94B6D /* MoonLike.tga */,
+				41C194DF24C732FC00A94B6D /* douzhi.tga */,
+				41C194DE24C732FC00A94B6D /* test.tga */,
+				41BC221E24C564CD005C57E6 /* brick.tga */,
+				41BC221C24C564CD005C57E6 /* ceiling.tga */,
+				41BC221D24C564CD005C57E6 /* floor.tga */,
+				41BC221F24C564CD005C57E6 /* stone.tga */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		55D6DDEE4A05AA3C224A5507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9BB14A823F2063A54C34CFA /* libPods-OpenGLDemoList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D26D4ABC9FD5581699F6BD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				302A485B4C01810747FD4228 /* Pods-OpenGLDemoList.debug.xcconfig */,
+				B560B94C3433F27D259EAC7F /* Pods-OpenGLDemoList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4180471424C2D22500278718 /* OpenGLDemoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4180472924C2D22600278718 /* Build configuration list for PBXNativeTarget "OpenGLDemoList" */;
+			buildPhases = (
+				537591004C96207E5F450F4D /* [CP] Check Pods Manifest.lock */,
+				4180471124C2D22500278718 /* Sources */,
+				4180471224C2D22500278718 /* Frameworks */,
+				4180471324C2D22500278718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGLDemoList;
+			productName = OpenGLDemoList;
+			productReference = 4180471524C2D22500278718 /* OpenGLDemoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4180470D24C2D22500278718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "周洋";
+				TargetAttributes = {
+					4180471424C2D22500278718 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 4180471024C2D22500278718 /* Build configuration list for PBXProject "OpenGLDemoList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4180470C24C2D22500278718;
+			productRefGroup = 4180471624C2D22500278718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4180471424C2D22500278718 /* OpenGLDemoList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4180471324C2D22500278718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C194E824C735A500A94B6D /* MoonLike.tga in Resources */,
+				41C194E724C735A500A94B6D /* Marslike.tga in Resources */,
+				41C194E024C732FC00A94B6D /* test.tga in Resources */,
+				41BC222024C564DA005C57E6 /* brick.tga in Resources */,
+				4180471F24C2D22600278718 /* Assets.xcassets in Resources */,
+				41C194E124C732FC00A94B6D /* douzhi.tga in Resources */,
+				41C194E624C735A500A94B6D /* Marble.tga in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		537591004C96207E5F450F4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGLDemoList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4180471124C2D22500278718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4122F5F124C2F8EA00616440 /* 公转自转demo.cpp in Sources */,
+				4180472D24C2D28300278718 /* main.cpp in Sources */,
+				41BC221B24C5600C005C57E6 /* 纹理三角形.cpp in Sources */,
+				4122F5EF24C2F3A700616440 /* 公转自转.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4180472724C2D22600278718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4180472824C2D22600278718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4180472A24C2D22600278718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302A485B4C01810747FD4228 /* Pods-OpenGLDemoList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGLDemoList/OpenGLDemoList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EK2GW26CEY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = OpenGLDemoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.OpenGLDemoList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4180472B24C2D22600278718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B560B94C3433F27D259EAC7F /* Pods-OpenGLDemoList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGLDemoList/OpenGLDemoList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EK2GW26CEY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = OpenGLDemoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.OpenGLDemoList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4180471024C2D22500278718 /* Build configuration list for PBXProject "OpenGLDemoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4180472724C2D22600278718 /* Debug */,
+				4180472824C2D22600278718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4180472924C2D22600278718 /* Build configuration list for PBXNativeTarget "OpenGLDemoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4180472A24C2D22600278718 /* Debug */,
+				4180472B24C2D22600278718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4180470D24C2D22500278718 /* Project object */;
+}
